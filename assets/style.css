@@ -102,7 +102,7 @@ em{ font-style: italic; color: var(--amber-dark); }
 .btn-primary:hover{ background: var(--ink-2); transform: translateY(-1px); }
 .btn-ghost{ background: transparent; color: var(--ink); }
 .btn-ghost:hover{ background: var(--ink); color: var(--white); }
-.btn-amber{ background: var(--amber); color: var(--ink); border-color: var(--amber); }
+.btn-amber{ background: var(--amber); border-color: var(--amber); }
 .btn-amber:hover{ background: var(--amber-dark); border-color: var(--amber-dark); color:var(--white); }
 .btn-sm{ padding: 9px 16px; font-size: 13px; }
 
