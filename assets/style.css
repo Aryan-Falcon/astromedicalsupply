@@ -505,6 +505,8 @@ section.block.alt{ background: var(--paper-2); }
   box-sizing: border-box;
   background: var(--white);
 }
+.shoe-track-4{ width: 400%; }
+.shoe-track-4 img{ width: calc(100% / 4); padding: 22px 18px; }
 .shoe-spotlight-media:hover .shoe-track{ width: 100%; }
 .shoe-hint{
   position:absolute;
