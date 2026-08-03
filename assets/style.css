@@ -440,6 +440,12 @@ section.block.alt{ background: var(--paper-2); }
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+.featured-grid-3{
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1000px){
+  .featured-grid-3{ grid-template-columns: repeat(2, 1fr); }
+}
 .featured-card{
   border: 1px solid var(--line);
   background: var(--card);
